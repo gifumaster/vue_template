@@ -1,0 +1,16 @@
+{
+  "root": true,
+  "parser": "vue-eslint-parser",
+  "env": {
+    "node": true
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:vue/vue3-recommended",
+    "prettier"
+  ],
+  "parserOptions": {
+    "parser": "@typescript-eslint/parser"
+  },
+  "rules": {}
+}
